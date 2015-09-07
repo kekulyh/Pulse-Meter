@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/alarm"
+        android:textColor="#333333" />
+
+	<kekulyh.bluetooth.CircleBar
+    	android:id="@+id/circle"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    />
+
+	<TextView
+	    android:id="@+id/setnum"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dp"
+	    android:text="@string/inputstepnumber"
+	    android:textColor="#333333" >
+	</TextView>
+
+	<Button
+	    android:id="@+id/setnumbutton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/setstepnumber" />
+
+</LinearLayout>
